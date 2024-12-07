@@ -4,7 +4,7 @@
 ```
 sudo apt-get update
 sudo apt-get install libopencv-dev
-sudo apt-get install python3-cv
+sudo apt-get install python3-opencv
 ```
 
 人臉辨識時，需要下載的haarcascade特徵檔案
