@@ -14,3 +14,8 @@ wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/ha
 
 wget https://raw.githubusercontent.com/opencv/opencv/master/data/haarcascades/haarcascade_eye.xml
 ```
+
+將本地的檔案複製到遠端
+```
+scp -r rpiOpenCV pi@192.168.1.118:/home/pi
+```
