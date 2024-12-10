@@ -5,7 +5,7 @@ cap.set(3, 360)
 cap.set(4, 240)
 while True:
     _, frame = cap.read()
-    cv2.imshow('original', frame)
+    cv2.imshow('camera', frame)
     k = cv2.waitKey(5) & 0xFF
     if k==27:
         break
