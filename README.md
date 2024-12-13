@@ -1,5 +1,5 @@
-### RPi OPENCV實作範例
-
+# RPi OPENCV實作範例
+## 人臉辨識
 更新軟體包及安裝opencv相關driver及套件：
 ```
 sudo apt-get update
@@ -22,7 +22,7 @@ scp -r rpiOpenCV pi@192.168.1.118:/home/pi
 ```
 sudo apt-get install guvcview
 ```
-### 使用 RPi 的內建 motion 功能
+## 使用 RPi 的內建 motion 功能
 
 更新軟體包
 ```
@@ -102,3 +102,14 @@ sudo kill -9 ID
 ```
 sudo chmod 777 /var/lib/motion
 ```
+## 手勢辨識
+下載相關套件
+```
+sudo apt-get update
+sudo pip3 install numpy --upgrade
+sudo pip3 install mediapipe-rpi3
+sudo pip3 install gtts
+sudo pip install mediapipe
+sudo pip install protobuf==3.19.0
+```
+使用Thonny去開啟執行程式
