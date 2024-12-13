@@ -74,6 +74,10 @@ locate_motion_mode on
 
 # 用紅色方框標示
 locate_motion_style redbox
+
+# 使用 line notify 通知
+on_picture_save curl https://notify-api.line.me/api/notify -X POST -H 'Authorization: Bearer YOUR_PERSONAL_ACCESS_TOKEN' -F 'message=!' F 'imageFile=@%f'
+
 ```
 啟動/停止服務
 ```
