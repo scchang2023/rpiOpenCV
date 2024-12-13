@@ -81,3 +81,16 @@ sudo motion
 service motion stop
 service motion status
 ```
+查看目前系統中正在運行的程式有哪些
+```
+ps -aux
+
+ps(process status)
+-a：與目前終端無關的所有運行項目
+-u：CPU
+-x：沒有控制終端的運行項目
+```
+刪除正在運行的程式
+```
+sudo kill -9 ID
+```
