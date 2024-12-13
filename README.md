@@ -98,3 +98,7 @@ ps(process status)
 ```
 sudo kill -9 ID
 ```
+更改文件或目錄權限
+```
+sudo chmod 777 /var/lib/motion
+```
