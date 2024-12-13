@@ -5,8 +5,8 @@ face_cascade = cv2.CascadeClassifier('./haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('./haarcascade_eye.xml')
 
 cap = cv2.VideoCapture(0)
-cap.set(3, 360)
-cap.set(4, 240)
+cap.set(360, 360)
+#cap.set(240, 240)
 
 while True:
     _, frame = cap.read()
