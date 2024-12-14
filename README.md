@@ -22,6 +22,10 @@ scp -r rpiOpenCV pi@192.168.1.118:/home/pi
 ```
 sudo apt-get install guvcview
 ```
+顯示作業系統訊息
+```
+uname -a
+```
 ## 使用 RPi 的內建 motion 功能
 
 更新軟體包
